@@ -1,7 +1,7 @@
 export interface Post {
   title: string,
   overview: string,
-  content: string,
+  content: any,
   slug: {
     current: string,
   },
